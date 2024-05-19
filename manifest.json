@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Video Downloader Extension",
+  "version": "1.0",
+  "description": "Download YouTube videos using a single click through a Chrome extension.",
+  "background": {
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
