@@ -19,11 +19,14 @@ YouTube Video Downloader is a Google Chrome Extension that allows users to downl
    ```sh
    git clone https://github.com/JSilvagnoli/YouTube-Video-Downloader.git
 2. Navigate to the project directory
-   ```cd YouTube-Video-Downloader```
+   ```sh
+   cd YouTube-Video-Downloader
 3. Install Flask using pip
-```pip install Flask```
+   ```sh
+   pip install Flask
 4. Install PyTube using pip:
-```pip install pytube```
+   ```sh
+   pip install pytube
 5. Navigate to chrome://extensions/ in your Chrome browser.
 6. Enable "Developer mode" by toggling the switch in the top right corner.
 7. Click "Load unpacked" and select the directory where you cloned the repository.
